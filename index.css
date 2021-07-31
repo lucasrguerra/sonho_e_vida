@@ -8,6 +8,7 @@
 body{
   background-image: url('background.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   background-color: #ff7a7a;
   display: grid;
@@ -60,6 +61,8 @@ body{
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000000;
   background-image: url('back.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: steelblue;
   font-family: Helvetica;
   font-weight: 600;

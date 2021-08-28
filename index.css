@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url('background.svg');
+  background-image: url('./images/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17,8 +17,8 @@ body{
 }
 
 .cards{
-  margin-bottom: 152px;
-  width: 900px;
+  margin-bottom: 132px;
+  width: 800px;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -37,14 +37,15 @@ body{
 }
 
 .face{
-  width: 105px;
-  height: 152px;
+  width: 90px;
+  height: 130px;
   border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
   position: absolute;
+  border-width: 3px;
   border-style: groove;
   border-color: blue;
 }
@@ -60,7 +61,7 @@ body{
 .back{
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000000;
-  background-image: url('back.svg');
+  background-image: url('./images/back.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: steelblue;

@@ -5,11 +5,13 @@ function cardGenerator(div) {
   let front = document.createElement('div');
   let back = document.createElement('div');
 
-  card.className = 'card';
+  card.classList.add('card');
+  card.classList.add('cursor-pointer');
   front.classList.add('face');
   front.classList.add('front');
   back.classList.add('face');
   back.classList.add('back');
+
 
   front.appendChild(document.createTextNode('X'));
   back.appendChild(document.createTextNode(cardNumber));
